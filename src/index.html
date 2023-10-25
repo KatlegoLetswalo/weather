@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link href="/src/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container-navbar">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <form action="#" method="#" role="search">
+            <div class="input-group">
+              <input
+                class="form-control"
+                placeholder="Enter a city"
+                name="srch-term"
+                id="ed-srch-term"
+                type="text"
+              />
+              <div class="input-group-btn">
+                <button type="submit" id="searchbtn">Search</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-heading">
+      <h1 style="font-size: 100px">Cape Town</h1>
+      <h2 style="font-size: 80px">12ºC</h2>
+    </div>
+
+    <div class="container-body">
+      <div class="row">
+        <div class="col-1" id="mon">
+          Mon <br /><img
+            src="/src/imgs/Weather Icons-09.png"
+            class="img-1"
+          /><span>12º</span>
+          <span>7º</span>
+        </div>
+        <div class="tue col-1" id="tue">
+          Tue <br />
+          <img src="/src/imgs/Weather Icons-03.png" class="img-1" /><span
+            >16º</span
+          >
+          <span>7º</span>
+        </div>
+        <div class="wed col-1" id="wed">
+          Wed <br /><img
+            src="/src/imgs/Weather Icons-02.png"
+            class="img-1"
+          /><span>19º</span>
+          <span>12º</span>
+        </div>
+        <div class="thur col-1" id="thur">
+          Thur <br /><img
+            src="/src/imgs/Weather Icons-04.png"
+            class="img-1"
+          /><span>16º</span>
+          <span>13º</span>
+        </div>
+        <div class="fri col-1" id="fri">
+          Fri <br /><img
+            src="/src/imgs/Weather Icons-10.png"
+            class="img-1"
+          /><span>16º</span>
+          <span>11º</span>
+        </div>
+        <div class="col-1" id="sat">
+          Sat <br /><img
+            src="/src/imgs/Weather Icons-02.png"
+            class="img-1"
+          /><span>14º</span>
+          <span>10º</span>
+        </div>
+        <div class="col-1" id="sun">
+          Sun <br /><img
+            src="/src/imgs/Weather Icons-13.png"
+            class="img-1"
+          /><span>15º</span>
+          <span>8º</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
